@@ -1,0 +1,250 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   #main{
+   }
+
+   #header {
+    height: 46.400px;
+    background-color: lightblue;
+   }
+ 
+   #nav {
+    display: inline-block;
+   }
+ 
+   #nav li {
+    display: inline-block;
+   }
+ 
+   #nav li:hover a {
+    color: #fff;
+    background-color: #000;
+   }
+ 
+   #nav li a {
+    padding: 0 24px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 46.400px;
+    display: block;
+   }
+ 
+   #header .subnav {
+    height: 3px;
+    background-color: #000;
+   }
+ 
+   #slider {
+    text-align: center;
+    margin-top: 3px;
+   }
+   #content .content-section {
+    padding: 25px 100px;
+    line-height: 1.3;
+    opacity: 1;
+   }
+ 
+   #content .member-item{
+    float: right;
+    width: 20%;
+    text-align: center;
+   }
+ 
+   #content .member-name {
+    font-size: 15px;
+    margin-left: -180px;
+   }
+ 
+   #content .member-name1 {
+    font-size: 15px;
+    margin-left: -160px;
+   }
+ 
+   #content .member-img {
+    width: 230px;
+    border-radius: 50px;
+    margin-top: -300px;
+    margin-left: -170px;
+   }
+   #slider {
+    text-align: center;
+    margin-top: 5px;
+   }
+   #content .content1-section1 {
+    padding: 10px 100px;
+    line-height: 1.3;
+    opacity: 0.7;
+   }
+ 
+   #content .member-item1{
+    float: right;
+    width: 20%;
+    text-align: center;
+   }
+ 
+   #content .member-name1 {
+    font-size: 15px;
+    margin-left: -180px;
+   }
+ 
+   #content .member-name11 {
+    font-size: 15px;
+    margin-left: -160px;
+   }
+ 
+   #content .member-img1 {
+    width: 230px;
+    border-radius: 50px;
+    margin-top: -70px;
+    margin-left: -170px;
+   }
+   #footer{
+ position: relative;
+ width: 100%;
+ height: auto;
+ padding: 50px 100px;
+ background: rgb(69, 69, 68);
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+#footer .container{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+#footer .container .noi-dung{
+ margin-right: 30px;
+}
+#footer  .container .noi-dung.about{
+ width:40%;
+}
+#footer .container .noi-dung.about h2{
+ position: relative;
+ color: #fff;
+ font-weight: 500;
+ margin-bottom: 15px;
+}
+#footer .container .noi-dung.about h2:before{
+ content: '';
+ position: absolute;
+ bottom: -5px;
+ left: 0;
+ width: 50px;
+ height: 2px;
+ background: rgb(83, 8, 245);
+}
+#footer .container .noi-dung.about p{
+ color: rgb(240, 237, 237);
+}
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+.social-icon{
+ margin-top: 20px;
+ display: flex;
+}
+.social-icon li {
+ list-style: none;
+}
+.social-icon li a{
+ display: inline-block;
+ width: 40px;
+ height: 40px;
+ background: rgb(198, 22, 22);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: 10px;
+ text-decoration: none;
+ border-radius: 4px;
+}
+.social-icon li a:hover{
+ background: rgb(92, 183, 237);
+}
+.social-icon li a .fa{
+ color: #fff;
+ font-size: 20px;
+}
+.links h2{
+ position: relative;
+ color: #fff;
+ font-weight: 500;
+ margin-bottom: 15px;
+}
+
+.links h2{
+ position: relative;
+ color: #fff;
+ font-weight: 500;
+ margin-bottom: 15px;
+}
+.links h2::before{
+ content: '';
+ position: absolute;
+ bottom: -5px;
+ left: 0;
+ width: 50px;
+ height: 2px;
+ background: rgb(12, 15, 189);
+}
+.links{
+position: relative;
+width: 25%;
+}
+.links ul li{
+ list-style: none;
+}
+.links ul li a{
+ color: #999;
+ text-decoration: none;
+ margin-bottom: 10px;
+ display: inline-block;
+}
+.links ul li a:hover{
+ color: #fff;
+}
+
+.contact h2{
+ position: relative;
+ color: #fff;
+ font-weight: 500;
+ margin-bottom: 15px;
+}
+.contact h2::before{
+ content: '';
+ position: absolute;
+ bottom: -5px;
+ left: 0;
+ width: 50px;
+ height: 2px;
+ background: rgb(14, 9, 151);
+}
+.contact{
+ width: calc(35% - 60px);
+ margin-right: 0 !important;
+}
+.contact .info{
+ position: relative;
+}
+.contact .info li{
+ display: flex;
+ margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+ color: #fff;
+ font-size: 20px;
+ margin-right: 10px;
+}
+.contact .info li span{
+ color: #999;
+}
+.contact .info li a{
+ color: #999;
+ text-decoration: none;
+}
